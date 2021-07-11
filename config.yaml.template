@@ -1,0 +1,9 @@
+mail:
+  email: root@example.com
+  password: asdafasfdaf
+  host: smtp.example.com
+
+http:
+  port: 8000
+
+token: vbabasfsdf

@@ -1,0 +1,10 @@
+### POST 适合发送复杂的请求
+POST http://localhost:8000/send/asdiuoifeubeiurgbir
+Content-Type: application/json
+
+{"to": "ssdf@coolrc.anonaddy.com","sub": "hello", "html": "<h3>hi</h3>"}
+
+
+### GET 发送简单的文本 email
+GET http://localhost:8000/send/asdiuoifeubeiurgbir?to=ssdf@coolrc.anonaddy.com&subject=hello&text=hi
+Accept: application/json
