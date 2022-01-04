@@ -20,6 +20,6 @@ setup(
     packages=find_packages(),
     install_requires=[
         "Flask",
-        "validit[yaml]"
+        "validit[yaml]==1.3.2"
     ]
 )
